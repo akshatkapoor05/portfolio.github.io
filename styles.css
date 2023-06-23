@@ -1,0 +1,96 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    line-height: 1.5;
+    padding: 20px;
+  }
+
+  header nav ul {
+    text-align: center;
+    text-shadow: #000000;
+    text-decoration: underline;
+    font-size: larger;
+  }
+
+  .background{
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+  }
+
+  .interest{
+    text-align: right;
+    position: relative;
+    bottom: 480px;
+  }
+
+  .contact{
+    position: relative;
+    bottom: 400px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+    font-size: larger;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  /* Introduction styles */
+  #introduction {
+    margin-bottom: 30px;
+  }
+  
+  /* Portfolio styles */
+  #portfolio ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* About Me styles */
+  #about {
+    margin-bottom: 30px;
+  }
+  
+  /* Contact section styles */
+  form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  /* Hover effect */
+  a:hover {
+    text-decoration: underline;
+  }
